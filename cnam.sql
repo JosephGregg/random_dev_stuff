@@ -5,6 +5,12 @@ CREATE TABLE `cnam` (
   `nxx` int(3) NOT NULL,
   `xxxx` int(4) NOT NULL,
   `cnam` varchar(255) DEFAULT NULL,
+  `name` varchar(255) DEFAULT NULL,
+  `gender` varchar(6) DEFAULT NULL,
+  `current_carrier` varchar(50) DEFAULT NULL,
+  `previous_carrier` varchar(50) DEFAULT NULL,
+  `line_type` varchar(10) DEFAULT NULL,
+  `line_provider` varchar(50) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
