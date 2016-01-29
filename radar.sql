@@ -14,5 +14,6 @@ CREATE TABLE `radar` (
   `lat` float DEFAULT NULL,
   `seen` int(11) DEFAULT NULL,
   `speed` int(11) DEFAULT NULL,
+  `observed_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=964712 DEFAULT CHARSET=utf8;
